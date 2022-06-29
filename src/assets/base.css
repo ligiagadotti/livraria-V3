@@ -1,0 +1,83 @@
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    margin: 0;
+}
+header {
+    display: flex;
+    height: 6%;
+    background-color: rgb(183, 240, 221);
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 1.3em;
+}
+
+header span {
+    padding: 0 20px;
+}
+.lista-livros {
+    display: flex;
+    justify-content: center;
+    margin: 4em 0;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: black 1px solid;
+    font-size: 1.1em;
+    text-align: center;
+    width: 60%;
+}
+table thead {
+    background-color: rgb(113, 232, 193);
+    font-weight: bold;
+}
+table tbody td {
+    padding: 0.5%;
+    line-break: anywhere;
+}
+table tbody tr:nth-child(odd) {
+    background-color: rgb(231, 251, 245);
+}
+.form-input {
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+}
+.form-input input {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    border-radius: 6px;
+    width: 11%;
+}
+.form-input button {
+    padding: 0.5em;
+    background-color: rgb(216, 255, 242);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 0.5%;
+}
+.login-admin {
+    background-color: rgba(204, 204, 204, 0.368);
+    padding: 100px;
+    border-radius: 10px;
+    width: 20%;
+    height: 13%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 10% 35%;
+}
+.login-admin input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.login-admin button {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 60px;
+}
